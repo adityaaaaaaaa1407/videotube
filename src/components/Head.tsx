@@ -14,7 +14,7 @@ import { FaSearch } from "react-icons/fa";
 import { FaUserCircle } from "react-icons/fa";
 const Head = () => {
   return (
-    <div>
+    <div className="grid grid-flow-col">
       <div>
         <div>
           <Sheet>
@@ -33,7 +33,7 @@ const Head = () => {
           </Sheet>
         </div>
         <div>
-          <Image
+          <img
             src="https://cdn.mos.cms.futurecdn.net/8gzcr6RpGStvZFA2qRt4v6-1200-80.jpg"
             alt="youtube-logo"
             width={30}
